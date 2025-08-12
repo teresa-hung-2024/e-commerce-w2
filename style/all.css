@@ -142,21 +142,21 @@ table {
 
 /* 顏色 */
 :root {
-    --primary-100: #F5FEE7;
-    --primary-200: #E8FEC5;
-    --primary-300: #C0FA73;
-    --primary-400: #57A203;
-    --primary-500: #477A11;
-    --neutral-0: #FFFFFF;
-    --neutral-100: #F8F9FA;
-    --neutral-200: #E9ECEF;
-    --neutral-300: #DEE2E6;
-    --neutral-400: #CED4DA;
-    --neutral-500: #ADB5BD;
-    --neutral-600: #6C757D;
-    --neutral-700: #495057;
-    --neutral-800: #343A40;
-    --neutral-900: #212529;
+	--primary-100: #F5FEE7;
+	--primary-200: #E8FEC5;
+	--primary-300: #C0FA73;
+	--primary-400: #57A203;
+	--primary-500: #477A11;
+	--neutral-0: #FFFFFF;
+	--neutral-100: #F8F9FA;
+	--neutral-200: #E9ECEF;
+	--neutral-300: #DEE2E6;
+	--neutral-400: #CED4DA;
+	--neutral-500: #ADB5BD;
+	--neutral-600: #6C757D;
+	--neutral-700: #495057;
+	--neutral-800: #343A40;
+	--neutral-900: #212529;
 	--danger-300: #d74f4f;
 }
 
@@ -181,7 +181,7 @@ img {
 }
 
 a {
-	color: var(--neutral-400);
+	color: var(--neutral-900);
 	text-decoration: none;
 	display: block;
 	font-weight: 500;
@@ -399,4 +399,29 @@ a {
 
 .mb-48 {
 	margin-bottom: 48px;
+}
+
+.me-48 {
+	margin-right: 48px;
+}
+
+.me-40 {
+	margin-right: 40px;
+}
+
+/* 元件 */
+.breadcrumb-item + .breadcrumb-item::before {
+	content: '/';
+	padding: 0 12px;
+	color: var(--neutral-300);
+	font-weight: 700;
+}
+
+.breadcrumb-item {
+	display: flex;
+	font-weight: 500;
+}
+
+.breadcrumb-link {
+	color: var(--neutral-600);
 }
