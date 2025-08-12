@@ -142,14 +142,22 @@ table {
 
 /* 顏色 */
 :root {
-	--primary-100: #F5FEE7;
-	--primary-400: #57A203;
-
-	--neutral-0: #FFFFFF;
-	--neutral-100: #F8F9FA;
-	--neutral-300: #DEE2E6;
-	--neutral-600: #6C757D;
-	--neutral-900: #212529;
+    --primary-100: #F5FEE7;
+    --primary-200: #E8FEC5;
+    --primary-300: #C0FA73;
+    --primary-400: #57A203;
+    --primary-500: #477A11;
+    --neutral-0: #FFFFFF;
+    --neutral-100: #F8F9FA;
+    --neutral-200: #E9ECEF;
+    --neutral-300: #DEE2E6;
+    --neutral-400: #CED4DA;
+    --neutral-500: #ADB5BD;
+    --neutral-600: #6C757D;
+    --neutral-700: #495057;
+    --neutral-800: #343A40;
+    --neutral-900: #212529;
+	--danger-300: #d74f4f;
 }
 
 /* 標籤基本樣式 */
@@ -157,17 +165,6 @@ table {
 *::before,
 *::after {
 	box-sizing: border-box;
-}
-
-/* 中間對齊，清除圖片下方的空白 */
-img {
-	vertical-align: middle;
-}
-
-a {
-	color: var(--primary-400);
-	text-underline-offset: 4px;
-	display: block;
 }
 
 body {
@@ -178,9 +175,21 @@ body {
 	color: var(--neutral-900);
 }
 
+/* 中間對齊，清除圖片下方的空白 */
+img {
+	vertical-align: middle;
+}
+
+a {
+	color: var(--neutral-400);
+	text-decoration: none;
+	display: block;
+	font-weight: 500;
+}
+
 /* 通用樣式 */
 .container {
-	width: 1296px;
+	width: 856px;
 	margin: 0 auto;
 }
 
@@ -283,8 +292,8 @@ body {
 	flex-wrap: wrap;
 }
 
-.h1 {
-	font-size: 48px;
+.h2 {
+	font-size: 32px;
 	line-height: 1.2;
 	font-weight: 700;
 }
@@ -307,38 +316,56 @@ body {
 	font-weight: 700;
 }
 
+.h6 {
+	font-size: 16px;
+	line-height: 1.2;
+	font-weight: 700;
+}
+
 .text-sm {
 	font-size: 14px;
 	font-weight: 400;
-}
-
-.text-white {
-	color: var(--neutral-0);
-}
-
-.text-neutral-600 {
-	color: var(--neutral-600);
 }
 
 .text-primary-400 {
 	color: var(--primary-400);
 }
 
-.bg-primary-100 {
-	background-color: var(--primary-100);
+.text-danger {
+	color: var(--danger-300);
+}
+
+.bg-primary-200 {
+	background-color: var(--primary-200);
 }
 
 .bg-neutral-100 {
 	background-color: var(--neutral-100);
 }
 
-.p-32 {
-	padding: 32px;
-}
-
 .py-8 {
 	padding-top: 8px;
 	padding-bottom: 8px;
+}
+
+.py-12 {
+	padding-top: 12px;
+	padding-bottom: 12px;
+}
+
+.py-16 {
+	padding-top: 16px;
+	padding-bottom: 16px;
+}
+
+.py-24 {
+	padding-top: 24px;
+	padding-bottom: 24px;
+}
+
+.py-32 {
+	padding-top: 32px;
+	padding-bottom: 32px;
 }
 
 .py-64 {
