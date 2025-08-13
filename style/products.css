@@ -1,0 +1,26 @@
+.category .active {
+    color: var(--primary-400);
+}
+
+.page-item .btn {
+    padding: 8px 15px;
+    border-radius: 0;
+    font-weight: 400;
+}
+
+.btn-user {
+	padding: 12px;
+}
+
+.btn-user a {
+    padding: 3px;
+}
+
+.btn-user .bi {
+    font-size: 18px;
+}
+
+.page-item .active {
+    background-color: var(--primary-300);
+    font-weight: 500;
+}

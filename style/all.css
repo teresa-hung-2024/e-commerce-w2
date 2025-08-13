@@ -178,6 +178,7 @@ body {
 /* 中間對齊，清除圖片下方的空白 */
 img {
 	vertical-align: middle;
+	max-width: 100%; 
 }
 
 a {
@@ -286,6 +287,10 @@ a {
 
 .align-center {
 	align-items: center;
+}
+
+.ms-auto {
+	margin-left: auto;
 }
 
 .flex-wrap {
@@ -401,12 +406,19 @@ a {
 	margin-bottom: 48px;
 }
 
+.mb-64 {
+	margin-bottom: 64px;
+}
+
 .me-48 {
 	margin-right: 48px;
 }
 
 .me-40 {
 	margin-right: 40px;
+}
+.me-24 {
+	margin-right: 24px;
 }
 
 /* 元件 */
@@ -424,4 +436,20 @@ a {
 
 .breadcrumb-link {
 	color: var(--neutral-600);
+}
+
+.btn {
+	border-radius: 4px;
+	padding: 12px 24px;
+	font-size: 16px;
+	line-height: 1.5;
+	font-weight: 500;
+	cursor: pointer;
+	border: none;
+	background-color: transparent;
+}
+
+.btn-dark{
+	background-color: var(--neutral-800);
+	color: var(--neutral-0);
 }
