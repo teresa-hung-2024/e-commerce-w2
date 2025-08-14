@@ -289,12 +289,20 @@ a {
 	align-items: center;
 }
 
-.ms-auto {
+.ml-auto {
 	margin-left: auto;
+}
+
+.me-auto {
+	margin-right: auto;
 }
 
 .flex-wrap {
 	flex-wrap: wrap;
+}
+
+.flex-column {
+	flex-direction: column;
 }
 
 .h2 {
