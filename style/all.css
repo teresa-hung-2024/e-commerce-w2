@@ -190,7 +190,7 @@ a {
 
 /* 通用樣式 */
 .container {
-	width: 856px;
+	width: 1296px;
 	margin: 0 auto;
 }
 
@@ -305,6 +305,10 @@ a {
 	flex-direction: column;
 }
 
+.gap-8 {
+	gap: 8px;
+}
+
 .h2 {
 	font-size: 32px;
 	line-height: 1.2;
@@ -398,6 +402,10 @@ a {
 	margin-bottom: 4px;
 }
 
+.mb-8 {
+	margin-bottom: 8px;
+}
+
 .mb-12 {
 	margin-bottom: 12px;
 }
@@ -425,8 +433,13 @@ a {
 .me-40 {
 	margin-right: 40px;
 }
+
 .me-24 {
 	margin-right: 24px;
+}
+
+.me-8 {
+	margin-right: 8px;
 }
 
 /* 元件 */

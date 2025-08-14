@@ -1,0 +1,38 @@
+/* 產品圖片 */
+.product-row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -4px;
+    margin-right: -4px;
+}
+
+.product-col {
+    width: calc(100% / 12 * 6);
+    padding-right: 4px;
+    padding-left: 4px;
+}
+
+/* 產品描述 */
+.del-price {
+    font-size: 14px;
+    font-weight: 400;
+    color: var(--neutral-500);
+    padding-left: 8px;
+}
+
+.btn-user .bi {
+    font-size: 18px;
+}
+
+/* 產品顏色 */
+.product-color {
+    width: 64px;
+    text-align: center;
+    color: var(--neutral-600)
+}
+
+/* 產品尺寸 */
+.btn-product-size {
+    border: 1px solid var(--neutral-300);
+    width: 160px;
+}
