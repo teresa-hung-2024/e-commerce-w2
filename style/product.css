@@ -61,7 +61,7 @@
     font-weight: 500;
 }
 
-.product-intf-item p {
+.product-info-item p {
     color: var(--neutral-600);
 }
 
@@ -69,3 +69,7 @@
     border-bottom: 1px solid var(--neutral-300);
 }
 
+.copyright {
+    color: var(--neutral-600);
+    line-height: 1.5;
+}
