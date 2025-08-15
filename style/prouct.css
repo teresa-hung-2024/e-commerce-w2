@@ -36,3 +36,36 @@
     border: 1px solid var(--neutral-300);
     width: 160px;
 }
+
+.btn-product-size.active,
+.btn-product-size:hover {
+    border-color: var(--neutral-900);
+}
+
+/* 收藏/預約按鈕 */
+.product-action {
+    display: flex;
+    gap: 8px;
+}
+
+.product-action .btn {
+    width: 50%;
+}
+
+.product-action .bi {
+    padding-right: 8px;
+}
+
+/* 產品資訊 */
+.product-info-title {
+    font-weight: 500;
+}
+
+.product-intf-item p {
+    color: var(--neutral-600);
+}
+
+.product-intf-item {
+    border-bottom: 1px solid var(--neutral-300);
+}
+

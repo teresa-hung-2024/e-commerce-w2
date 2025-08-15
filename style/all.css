@@ -418,6 +418,14 @@ a {
 	margin-bottom: 24px;
 }
 
+.mb-32 {
+	margin-bottom: 32px;
+}
+
+.mb-40 {
+	margin-bottom: 40px;
+}
+
 .mb-48 {
 	margin-bottom: 48px;
 }
@@ -440,6 +448,10 @@ a {
 
 .me-8 {
 	margin-right: 8px;
+}
+
+.me-2 {
+	margin-right: 2px;
 }
 
 /* 元件 */
@@ -471,6 +483,10 @@ a {
 }
 
 .btn-dark{
-	background-color: var(--neutral-800);
+	background-color: var(--neutral-900);
 	color: var(--neutral-0);
+}
+
+.btn-light {
+    border: 1px solid var(--neutral-900);
 }
